@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Task Manager</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+
+
+
+
+    <body>
+
+        <div class="container">
+            <div class="logo">
+                <div>
+                    <p>TASK MANAGER</p>
+                </div>
+            </div>
+            <div class="header">
+                <div class="searchbar">
+                    <i class="fa fa-search"><input type="text" placeholder="Search..."></i>
+                </div>
+                <div class="switch">
+                    <input type="checkbox" id="checkbox_id">
+                    <div>
+                        <label class="checkbox-text" for="checkbox_id">
+                            <p id="inbox">Inbox</p>
+                            <p id="cal">Calender</p>
+                        </label>
+                    </div>
+                </div>
+                <div class="night-switch">
+                    <i class="fa-solid fa-moon"></i>
+                </div>
+            </div>
+            <div class="user-profile">
+                <div class="user-pfp">
+                    <img src="assets/images/pfp.png" alt="pfp" width="90px" height="90px">
+                </div>
+                <div class="user-info">
+                    <div class="user-name">
+                        <p>Natalie Smith</p>
+                    </div>
+                    <div class="user-email">
+                        <p>natalie.smith@gmail.com</p>
+                    </div>
+                    <div class="user-icons">
+                        <div class="user-settings"><p><i class="fa-solid fa-gear"></i></p></div>
+                        <div class="user-messages"><p><i class="fa-solid fa-envelope"></i></p></div>
+                        <div class="user-notis"><p><i class="fa-solid fa-bell"></i></p></div>
+                    </div>
+                    <div class="notis">
+                        <div class="two">
+                            <p>2</p>
+                        </div>
+                        <div class="five">
+                            <p>5</p>
+                        </div>
+                    </div>
+                    <div class="progress-bar-text">
+                        <p>12/34</p>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-container-background">
+                            <div class="progress-bar-main" style="height:10px;width:75%"></div>
+                        </div>
+                    </div>
+                    <div class="progress-bar-moving">
+                        <div class="progress-bar-main" style="height:10px;width:75%"></div>
+                    </div>
+                    <div class="tasks-container">
+                        <div class="numbers">
+                            <p>12</p> <p>22</p> <p>243</p>
+                        </div>
+                        <div class="number-text">
+                            <p class="completed">Completed</p> <p class="to-do">To do</p> <p class="all">All</p>
+                        </div>
+                    </div>
+                    <div class="user-projects">
+                        <h1>PROJECTS</h1>
+                        <div class="marketing">
+                            <i class="fa-regular fa-circle"></i><p>Marketing</p>
+                        </div>
+                        <div class="design">
+                            <i class="fa-regular fa-circle"></i><p>Design</p>
+                        </div>
+                        <div class="development">
+                            <i class="fa-regular fa-circle"></i><p>Development</p>
+                        </div>
+                        <div class="management">
+                            <i class="fa-regular fa-circle"></i><p>Management</p>
+                        </div>
+                    </div>
+                    <div class="user-team">
+                            <h1>TEAM</h1>
+                        <div>
+                            <img src="https://images.unsplash.com/flagged/photo-1574282893982-ff1675ba4900?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80" alt="team" width="40px" height="40px">
+                            <img src="https://assets.codepen.io/3364143/Screen+Shot+2020-08-01+at+12.24.16.png" alt="team" width="40px" height="40px">
+                            <img src="https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60" alt="team" width="40px" height="40px">
+                            <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=998&q=80" alt="team" width="40px" height="40px">
+                            <img src="https://images.unsplash.com/photo-1541647376583-8934aaf3448a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80" alt="team" width="40px" height="40px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="inbox-header">
+                <h1>MARKETING</h1>
+                <div class="drop-box">
+                    <span><i class="fa-solid fa-caret-down"></i></span>
+                </div>
+            </div>
+            <div class="user-inbox">
+
+            </div>
+            <div class="add-task">
+                <p>Add task</p>
+            </div>
+            <div class="user-chat">
+
+            </div>
+            <div class="user-info-header">
+                <div class="user-info-pfp">
+                    <img src="assets/images/pfp.png" alt="pfp" width="60px" height="60px">
+                </div>
+                <div class="user-info-name">
+                    <p>Natalie Smith</p>
+                </div>
+                <div class="user-info-icons">
+                    <div class="user-icon-trash"><p><i class="fa-solid fa-trash"></i></p></div>
+                    <div class="user-icon-user"><p><i class="fa-solid fa-user"></i></p></div>
+                    <div class="user-icon-tag"><p><i class="fa-solid fa-tag"></i></p></div>
+                    <div class="user-info-check"><p><i class="fa-solid fa-square-check"></i></p></div>
+                    <div class="user-info-clip"><p><i class="fa-solid fa-paperclip"></i></p></div>
+                </div>
+            </div>
+            <div class="user-chat-footer">
+                <input type="text" placeholder="Write a comment...">
+                <span class="link"><i class="fa-solid fa-paperclip"></i></span>
+                <span class="send"><i class="fa-solid fa-paper-plane"></i></span>
+            </div>
+        </div>
+    </body>
+
+
+
+
+    
+</html>
