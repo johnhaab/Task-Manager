@@ -8,7 +8,7 @@ Login page for project "Task Manager"
 Main project "Task Manager"
 ![](/assets/images/screenshot-main.png)
 
-- Live Site URL: [Click me!](https://johnhaab.github.io/login-signup-page/)
+- Live Site URL: [Click me!](https://johnhaab.github.io/Task-Manager)
 
 ### Overview
 
