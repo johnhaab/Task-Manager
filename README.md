@@ -1,6 +1,6 @@
 STILL WORKING ON THIS, NOT FINISHED!
 
-![](/assets/screenshot.png)
+![](/assets/images/screenshot-main.png)
 
 - Live Site URL: [Click me!](https://johnhaab.github.io/login-signup-page/)
 
