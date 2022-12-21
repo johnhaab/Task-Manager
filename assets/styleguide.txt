@@ -1,0 +1,9 @@
+main color -- rgba(185, 126, 214, 0.7) -- c
+
+light black -- hsl(120, 4%, 10%, 60%)
+
+main black -- hsl(120, 4%, 10%, 80%)
+
+icons bg -- rgb(234,238,252)
+
+font-family: 'Poppins', sans-serif;
