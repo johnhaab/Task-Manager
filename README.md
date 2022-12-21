@@ -1,5 +1,11 @@
 STILL WORKING ON THIS, NOT FINISHED!
 
+
+
+Login page for project "Task Manager"
+![](/assets/images/screenshot-login.png)
+
+Main project "Task Manager"
 ![](/assets/images/screenshot-main.png)
 
 - Live Site URL: [Click me!](https://johnhaab.github.io/login-signup-page/)
